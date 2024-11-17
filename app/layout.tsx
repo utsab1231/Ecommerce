@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="dark">
         <Navbar />
-        {children}
+        <div className="p-6 md:p-12 max-w-[90%] mx-auto">{children}</div>
       </body>
     </html>
   );
